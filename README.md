@@ -1,0 +1,1 @@
+sample openapi spec to generate servers and clients in different languages
