@@ -1,0 +1,14 @@
+openapi: 3.0.0
+info:
+  title: Sample API Specification
+  description: sample openapi spec to generate servers and clients in different languages
+  version: 0.0.1
+
+paths:
+  /movies:
+    $ref: './paths/movies.yml'
+
+components:
+  schemas:
+    Movie:
+      $ref: './schemas/movie.yml'

@@ -1,0 +1,11 @@
+get:
+  operationId: getMovies
+  responses:
+    '200':
+      description: OK
+      content:
+        application/json:
+          schema:
+            items:
+              $ref: '#/components/schemas/movie'
+      
